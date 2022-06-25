@@ -1,0 +1,39 @@
+.checkout-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+}
+
+.formInput{
+    position: relative;
+    left: -2%;
+    color:white;
+    font-size: large;
+}
+
+.checkout-form-input{
+    font-size: large;
+    height: 5vh;
+    width: 15vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.checkout-button{
+    font-size: x-large;
+    height: 6vh;
+    width: 55%;
+    color:white;
+    background-color: #95aff7;
+    margin-top: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#lowerForm{
+    padding-bottom: 10%;
+    font-size: large;
+}
+
+#submitForm{
+    color:white;
+}

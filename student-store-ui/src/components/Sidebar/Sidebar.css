@@ -1,0 +1,39 @@
+.sidebar{
+    transition: min-width 1s, max-width 1s;
+    position: fixed;
+    left:0px;
+    min-width: 20px;
+    height:100%;
+    z-index: 1;
+    max-width: 150px;
+    background-image: linear-gradient(rgb(204, 4, 204), violet, rgb(204, 4, 204));
+}
+.open{
+    min-width: 350px;
+    max-width: 400px;
+    transition: 0.5s;
+}
+
+.toggle-button{
+    cursor: pointer;
+    position: relative;
+    background-color: none;
+    width: 100%;
+    height: 3vh;
+    background-color:transparent;
+    top: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+
+}
+
+.toggle-button.open{
+    left: 40%;
+}
+
+@keyframes buttonShow {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

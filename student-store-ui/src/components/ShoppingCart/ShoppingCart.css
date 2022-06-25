@@ -1,0 +1,46 @@
+.notification{
+    color: white;
+    margin-top: 20vh;
+    font-size: xx-large;
+}
+
+.total-price, .subtotal, .cart-product-name, .cart-product-quantity{
+    color:white;
+    font-size: x-large;
+}
+
+.itemized{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.cart-product-quantity{
+    margin-left: 2%;
+}
+
+.shopping-cart{
+    max-height: 60vh;
+    overflow: auto;
+}
+
+#receipt{
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 2%;
+}
+
+.receiptResult{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.subtotal{
+    color:white;
+    font-size: x-large;
+    margin-bottom: 10%;
+}

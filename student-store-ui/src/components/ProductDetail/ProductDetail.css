@@ -1,0 +1,10 @@
+.loading{
+    color:white;
+    position: relative;
+    top:45vh;
+    height: 100vh;
+}
+
+.expandedView{
+    align-items: center;
+}

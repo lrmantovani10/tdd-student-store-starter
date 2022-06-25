@@ -1,0 +1,19 @@
+.footer{
+    padding-top: 2vh;
+    text-align: center;
+    color:white;
+    font-size: xx-large;
+    vertical-align: center;
+    width: 100vw;
+    height: 13vh;
+    margin-top: 3vh;
+    background-image: linear-gradient(to right,rgb(204, 4, 204), rgb(130, 170, 238), rgb(204, 4, 204));
+  }
+  
+  .appLogos{
+    padding-top: 1vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+  }

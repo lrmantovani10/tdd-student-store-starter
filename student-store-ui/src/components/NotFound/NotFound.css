@@ -1,0 +1,13 @@
+.not-found{
+    text-align: center;
+    border-top: 400px;
+    padding-top: 10vh;
+}
+
+.notFoundMessage{
+    color: white;
+}
+
+.notFoundImage{
+    height: 70vh;
+}

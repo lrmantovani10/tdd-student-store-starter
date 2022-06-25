@@ -1,11 +1,14 @@
 body {
+  background-image: repeating-linear-gradient(180deg,rgb(127, 174, 255), violet, rgb(127, 174, 255));
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
     "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 * {
   box-sizing: border-box;
 }

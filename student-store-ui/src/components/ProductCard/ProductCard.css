@@ -1,0 +1,38 @@
+.product-card{
+    display: flex;
+    background-image: linear-gradient(violet, rgb(127, 174, 255), violet);;
+    padding-right: 10%;
+    padding-left: 10%;
+    border: 1px dotted gray;
+    flex-direction: column;
+    place-items: center;
+    width: 24vw;
+    border-radius: 5%;
+}
+.wider{
+    width: 50vw;;
+}
+.product-name{
+    color:white;
+    font-size: x-large;
+    font-weight: bold;
+}
+.product-price{
+    color: white;
+    font-size: large;
+}
+.product-quantity{
+    color: white;
+}
+.product-image{
+    width: 20vw;
+    height: 20vw;
+}
+.add{
+    font-size: large;
+    border-radius: 20%;
+}
+.remove{
+    font-size: large;
+    border-radius: 20%;
+}

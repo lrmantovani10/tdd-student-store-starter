@@ -1,0 +1,45 @@
+.navbar{
+    width: 100vw;
+    height: 5vw;
+    position: absolute;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10vw;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right,rgb(204, 4, 204), rgb(130, 170, 238), rgb(204, 4, 204));
+} 
+.logoImage{
+    width: 15vw;
+}
+.socialMedias{
+    border-left: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    gap: 40px;
+ 
+}
+.socialIcon{
+    width: 2.5vw;
+    height: 2.5vw;
+    border-left: 10vw;
+}
+
+.navbarLinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30vw;
+    gap: 20%;
+    flex-wrap: nowrap;
+}
+
+.navbarLink{
+    font-size: large;
+    white-space: nowrap;
+    text-decoration: none;
+    color:white;
+}
