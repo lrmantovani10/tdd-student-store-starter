@@ -305,4 +305,4 @@ https://mui.com/material-ui/getting-started/installation/
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
 
-Vincent Chen, Nicole Stiles, and Hannah all helped me!
+Vincent Chen, Nicole Stiles, and Hannah Zhou all helped me!
