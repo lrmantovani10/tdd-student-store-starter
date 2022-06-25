@@ -63,7 +63,7 @@ The following specifications were met on the Express backend and the React front
     - [X] Define as many as are needed.
     - [X] At minimum, **create these five handlers**:
       - [X] The **`handleOnToggle`** function. When called...
-        - [ ] It should toggle the open/closed state of the `Sidebar`.
+        - [X] It should toggle the open/closed state of the `Sidebar`.
       - [X] The **`handleAddItemToCart`** function. When called...
         - [X] It should accept a single argument - `productId`
         - [X] It should add that product to the `shoppingCart` if it doesn't exist, and set its quantity to `1`.
@@ -84,7 +84,7 @@ The following specifications were met on the Express backend and the React front
         - [X] To submit the user's order, it should leverage the `axios.post` method to send a `POST` request to the `/store` endpoint.
         - [X] The body of that `POST` request should be an object with two fields:
           - [X] The `user` field:
-            - [ ] Should be an object containing `name` and `email` properties
+            - [X] Should be an object containing `name` and `email` properties
             - [X] Each property should be set to the correct value found in the `checkoutForm`
           - [X] The `shoppingCart` field:
             - [X] Should contain the user's order formatted as an array of objects.
