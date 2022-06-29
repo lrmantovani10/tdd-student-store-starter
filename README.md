@@ -293,7 +293,7 @@ The following specifications were met on the Express backend and the React front
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-I think that the fast food lab was helpful because it showed me how to pass data from parent to child using props. I also enjoyed how the Twitter lab taught me to properly handle user input and implement conditional rendering.
+I think that the gift exchange lab was really helpful because it showed me how to set up a server with Express and handle routing on a web server. I also liked how it helped me differentiate files in the "routes" and "models" folders. 
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
@@ -301,18 +301,18 @@ If I had more time, I would have rendered the App.jsx error messages on the side
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-I liked how I improved my design throughout the project, added CSS animations and used the Materials UI package. I also liked how my search functionality can filter the products among those of the category selected by the user (instead of among all the products fetched by the API). However, I think that what didn't go as planned was that I was initially unaware of certain components necessary for my code to pass the autograder (such as "Footer"), so I had to restructure my code throughout the project to make it conform to the specifications laid out on the description page. As for notable features that my peers added, I liked how one person in my group made his site more accessible by adding alt text to his images. 
+I liked how I created a full-functioning server which also returns receipts to the user, and I enjoyed being able to finish the project much faster this week. Additionally, I think everything went as planned, and I ended up developing the same features as my peers. 
 
 ### Open-source libraries used
 
 - Add any links to open-source libraries used in your project.
 
 * https://axios-http.com/docs/intro
-* https://mui.com/material-ui/getting-started/installation/
+* https://expressjs.com/
 
 
 ### Shout out
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
 
-Vincent Chen, Nicole Stiles, and Hannah Zhou all helped me!
+Vincent Chen really helped me!
