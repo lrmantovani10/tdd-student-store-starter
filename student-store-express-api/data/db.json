@@ -145,5 +145,270 @@
       "price": 999.99
     }
   ],
-  "purchases": []
+  "purchases": [
+    {
+      "id": 4,
+      "name": "Lucas",
+      "email": "money@hungry.com",
+      "order": [
+        {
+          "itemId": 3,
+          "quantity": 3
+        },
+        {
+          "itemId": 5,
+          "quantity": 2
+        },
+        {
+          "itemId": 4,
+          "quantity": 4
+        }
+      ],
+      "total": 40.2,
+      "createdAt": "Tue Jun 28 2022 4:01:41 PM",
+      "receipt": {
+        "lines": [
+          "Showing receipt for Lucas available at money@hungry.com",
+          "3 total Cinnamon Rolls purchased at a cost of 2.99 for a total cost of 8.97",
+          "2 total Fruit Medley purchased at a cost of 7.5 for a total cost of 15",
+          "4 total Coconut Water purchased at a cost of 3.25 for a total cost of 13",
+          "Before taxes, the subtotal was 36.97",
+          "After taxes and fees were applied, the total comes out to 40.2"
+        ],
+        "productRows": [
+          {
+            "category": "food",
+            "description": "Basically just cake for breakfast, but who's complaining?",
+            "id": 3,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Johns_Inc_Cinnamon_Rolls.jpg",
+            "name": "Cinnamon Rolls",
+            "price": 2.99,
+            "quantity": 3,
+            "source": "https://en.wikipedia.org/wiki/File:Johns_Inc_Cinnamon_Rolls.jpg",
+            "totalPrice": 8.97
+          },
+          {
+            "category": "food",
+            "description": "More fruit than you know what to do with!",
+            "id": 5,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Fruits.png/640px-Fruits.png",
+            "name": "Fruit Medley",
+            "price": 7.5,
+            "quantity": 2,
+            "source": "https://commons.wikimedia.org/wiki/File:Fruits.png",
+            "totalPrice": 15
+          },
+          {
+            "category": "food",
+            "description": "Somehow incredibly hydrating, while also not really being water.",
+            "id": 4,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Coconut_Drink%2C_Pangandaran.JPG/1920px-Coconut_Drink%2C_Pangandaran.JPG",
+            "name": "Coconut Water",
+            "price": 3.25,
+            "quantity": 4,
+            "source": "https://commons.wikimedia.org/wiki/Category:Coconut_water#/media/File:Coconut_Drink,_Pangandaran.JPG",
+            "totalPrice": 13
+          }
+        ],
+        "userInfo": {
+          "name": "Lucas",
+          "email": "money@hungry.com"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Cash",
+      "email": "money@hungry.com",
+      "order": [
+        {
+          "itemId": 3,
+          "quantity": 8
+        },
+        {
+          "itemId": 5,
+          "quantity": 2
+        },
+        {
+          "itemId": 4,
+          "quantity": 4
+        },
+        {
+          "itemId": 2,
+          "quantity": 9
+        }
+      ],
+      "total": 71.14,
+      "createdAt": "Tue Jun 28 2022 4:01:56 PM",
+      "receipt": {
+        "lines": [
+          "Showing receipt for Cash available at money@hungry.com",
+          "8 total Cinnamon Rolls purchased at a cost of 2.99 for a total cost of 23.92",
+          "2 total Fruit Medley purchased at a cost of 7.5 for a total cost of 15",
+          "4 total Coconut Water purchased at a cost of 3.25 for a total cost of 13",
+          "9 total Flamin Hot Cheetos purchased at a cost of 1.5 for a total cost of 13.5",
+          "Before taxes, the subtotal was 65.42",
+          "After taxes and fees were applied, the total comes out to 71.14"
+        ],
+        "productRows": [
+          {
+            "category": "food",
+            "description": "Basically just cake for breakfast, but who's complaining?",
+            "id": 3,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Johns_Inc_Cinnamon_Rolls.jpg",
+            "name": "Cinnamon Rolls",
+            "price": 2.99,
+            "quantity": 8,
+            "source": "https://en.wikipedia.org/wiki/File:Johns_Inc_Cinnamon_Rolls.jpg",
+            "totalPrice": 23.92
+          },
+          {
+            "category": "food",
+            "description": "More fruit than you know what to do with!",
+            "id": 5,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Fruits.png/640px-Fruits.png",
+            "name": "Fruit Medley",
+            "price": 7.5,
+            "quantity": 2,
+            "source": "https://commons.wikimedia.org/wiki/File:Fruits.png",
+            "totalPrice": 15
+          },
+          {
+            "category": "food",
+            "description": "Somehow incredibly hydrating, while also not really being water.",
+            "id": 4,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Coconut_Drink%2C_Pangandaran.JPG/1920px-Coconut_Drink%2C_Pangandaran.JPG",
+            "name": "Coconut Water",
+            "price": 3.25,
+            "quantity": 4,
+            "source": "https://commons.wikimedia.org/wiki/Category:Coconut_water#/media/File:Coconut_Drink,_Pangandaran.JPG",
+            "totalPrice": 13
+          },
+          {
+            "category": "food",
+            "description": "No one knows what's in the powder that covers these snacks, but wow is it amazing!",
+            "id": 2,
+            "image": "https://static.openfoodfacts.org/images/products/896/400/009/0879/front_en.14.full.jpg",
+            "name": "Flamin Hot Cheetos",
+            "price": 1.5,
+            "quantity": 9,
+            "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+            "totalPrice": 13.5
+          }
+        ],
+        "userInfo": {
+          "name": "Cash",
+          "email": "money@hungry.com"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Lucas",
+      "email": "lucas@me",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 2
+        },
+        {
+          "itemId": 3,
+          "quantity": 2
+        }
+      ],
+      "total": 9.77,
+      "createdAt": "Tue Jun 28 2022 6:26:27 PM",
+      "receipt": {
+        "lines": [
+          "Showing receipt for Lucas available at lucas@me",
+          "2 total Flamin Hot Cheetos purchased at a cost of 1.5 for a total cost of 3",
+          "2 total Cinnamon Rolls purchased at a cost of 2.99 for a total cost of 5.98",
+          "Before taxes, the subtotal was 8.98",
+          "After taxes and fees were applied, the total comes out to 9.77"
+        ],
+        "productRows": [
+          {
+            "category": "food",
+            "description": "No one knows what's in the powder that covers these snacks, but wow is it amazing!",
+            "id": 2,
+            "image": "https://static.openfoodfacts.org/images/products/896/400/009/0879/front_en.14.full.jpg",
+            "name": "Flamin Hot Cheetos",
+            "price": 1.5,
+            "quantity": 2,
+            "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+            "totalPrice": 3
+          },
+          {
+            "category": "food",
+            "description": "Basically just cake for breakfast, but who's complaining?",
+            "id": 3,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Johns_Inc_Cinnamon_Rolls.jpg",
+            "name": "Cinnamon Rolls",
+            "price": 2.99,
+            "quantity": 2,
+            "source": "https://en.wikipedia.org/wiki/File:Johns_Inc_Cinnamon_Rolls.jpg",
+            "totalPrice": 5.98
+          }
+        ],
+        "userInfo": {
+          "name": "Lucas",
+          "email": "lucas@me"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Lucas",
+      "email": "faceb@",
+      "order": [
+        {
+          "itemId": 2,
+          "quantity": 3
+        },
+        {
+          "itemId": 1,
+          "quantity": 2
+        }
+      ],
+      "total": 7.05,
+      "createdAt": "Tue Jun 28 2022 6:27:45 PM",
+      "receipt": {
+        "lines": [
+          "Showing receipt for Lucas available at faceb@",
+          "3 total Flamin Hot Cheetos purchased at a cost of 1.5 for a total cost of 4.5",
+          "2 total Rice Krispies purchased at a cost of 0.99 for a total cost of 1.98",
+          "Before taxes, the subtotal was 6.48",
+          "After taxes and fees were applied, the total comes out to 7.05"
+        ],
+        "productRows": [
+          {
+            "category": "food",
+            "description": "No one knows what's in the powder that covers these snacks, but wow is it amazing!",
+            "id": 2,
+            "image": "https://static.openfoodfacts.org/images/products/896/400/009/0879/front_en.14.full.jpg",
+            "name": "Flamin Hot Cheetos",
+            "price": 1.5,
+            "quantity": 3,
+            "source": "https://world.openfoodfacts.org/cgi/product_image.pl?code=8964000090879&id=front_en",
+            "totalPrice": 4.5
+          },
+          {
+            "category": "food",
+            "description": "Delicious corn-based rice grains melted together with marshmallows into a square-like shape.",
+            "id": 1,
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/RKTsquares.jpg",
+            "name": "Rice Krispies",
+            "price": 0.99,
+            "quantity": 2,
+            "source": "https://en.wikipedia.org/wiki/Rice_Krispies_Treats",
+            "totalPrice": 1.98
+          }
+        ],
+        "userInfo": {
+          "name": "Lucas",
+          "email": "faceb@"
+        }
+      }
+    }
+  ]
 }
