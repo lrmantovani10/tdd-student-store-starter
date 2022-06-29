@@ -28,9 +28,9 @@ Selling merchandise in the modern era requires digital solutions. For this proje
 
 - [X] User can click in the top navigation bar to scroll to the relevant section.
 - [X] User sees a "not found" display when searching for a nonexistent product.
-- [N/A(week2)] Create an endpoint for fetching all orders in the database, and an endpoint for serving an individual order based on its id.
-- [N/A(week2)] Build a page in the UI that displays the list of all past orders and lets the user click on any individual order to take them to a more detailed page of the transaction.
-- [N/A(week2)] Allow users to use an input to filter orders by the email of the person who placed the order.
+- [X] Create an endpoint for fetching all orders in the database, and an endpoint for serving an individual order based on its id.
+- [X] Build a page in the UI that displays the list of all past orders and lets the user click on any individual order to take them to a more detailed page of the transaction.
+- [X] Allow users to use an input to filter orders by the email of the person who placed the order.
 
 ### Passing Automated Tests
 
@@ -245,42 +245,42 @@ The following specifications were met on the Express backend and the React front
         - [X] The `checkoutForm` should be reset to its default state.
 
 **Server** - Create an Express server
-  - [N/A(week2)] Wire up the appropriate middleware and error handlers in the `app.js` file
-  - [N/A(week2)] Create a single `GET` request handler at the `/` endpoint. It should respond to all `GET` requests with a JSON object and a `200` status code. The JSON response should contain a single key of `ping` that stores the string value: `pong`. For example: `{ "ping": "pong" }`.
-  - [N/A(week2)] Have a `server.js` file that starts the app by listening on port `3001`.
+  - [X] Wire up the appropriate middleware and error handlers in the `app.js` file
+  - [X] Create a single `GET` request handler at the `/` endpoint. It should respond to all `GET` requests with a JSON object and a `200` status code. The JSON response should contain a single key of `ping` that stores the string value: `pong`. For example: `{ "ping": "pong" }`.
+  - [X] Have a `server.js` file that starts the app by listening on port `3001`.
 
 **Models** - The API should use a `Store` model that handles the following
-  - [N/A(week2)] List all products currently in the `db.json` file
-  - [N/A(week2)] Fetch a single product by its id
-  - [N/A(week2)] Create a purchase order
+  - [X] List all products currently in the `db.json` file
+  - [X] Fetch a single product by its id
+  - [X] Create a purchase order
 
 **Routes** - The API should contain a route mounted at the `/store` endpoint
-  - [N/A(week2)] It should respond to `GET` requests to `/store` with an array of all products in the store in this format: `{ "products": products }`
-  - [N/A(week2)] It should respond to `GET` requests to `/store/:productId` with a single product based on the product's id using this JSON format: `{ "product": product }`
-  - [N/A(week2)] It should allow `POST` requests to the `/store` endpoint:
-    - [N/A(week2)] The endpoint should create purchase orders for users and save them to the `db.json` file
-    - [N/A(week2)] The endpoint should accept a request body that contains `shoppingCart` and `user` fields.
-      - [N/A(week2)] The `shoppingCart` field should contain the user's order.
-        - [N/A(week2)] This should be an array of objects.
-        - [N/A(week2)] Each object in the array should have two fields:
+  - [X] It should respond to `GET` requests to `/store` with an array of all products in the store in this format: `{ "products": products }`
+  - [X] It should respond to `GET` requests to `/store/:productId` with a single product based on the product's id using this JSON format: `{ "product": product }`
+  - [X] It should allow `POST` requests to the `/store` endpoint:
+    - [X] The endpoint should create purchase orders for users and save them to the `db.json` file
+    - [X] The endpoint should accept a request body that contains `shoppingCart` and `user` fields.
+      - [X] The `shoppingCart` field should contain the user's order.
+        - [X] This should be an array of objects.
+        - [X] Each object in the array should have two fields:
           <!-- - [ ] The `item` field should store an object of the item being purchased -->
-          - [N/A(week2)] The `itemId` field should store the `id` of the item being purchased
-          - [N/A(week2)] The `quantity` field should store a number representing how many of that item the user is purchasing.
-      - [N/A(week2)] The `user` field should contain the name and email of the person placing the order.
-      - [N/A(week2)] When either the `shoppingCart` or `user` fields are missing, it should throw a `400` error.
-      - [N/A(week2)] If there are duplicate items in the `shoppingCart`, it should throw a `400` error.
-      - [N/A(week2)] If either the `quantity` or `itemId` field is missing for any of the items in the `shoppingCart`, a `400` error should be thrown.
-      - [N/A(week2)] When both are there, it should calculate the total cost of all the items (including quantities), add a `8.75%` tax to the total, and create a new purchase object containing 6 required fields and 1 optional field:
+          - [X] The `itemId` field should store the `id` of the item being purchased
+          - [X] The `quantity` field should store a number representing how many of that item the user is purchasing.
+      - [X] The `user` field should contain the name and email of the person placing the order.
+      - [X] When either the `shoppingCart` or `user` fields are missing, it should throw a `400` error.
+      - [X] If there are duplicate items in the `shoppingCart`, it should throw a `400` error.
+      - [X] If either the `quantity` or `itemId` field is missing for any of the items in the `shoppingCart`, a `400` error should be thrown.
+      - [X] When both are there, it should calculate the total cost of all the items (including quantities), add a `8.75%` tax to the total, and create a new purchase object containing 6 required fields and 1 optional field:
         - **required**:
-          - [N/A(week2)] `id` - the new `id` of the purchase should be equal to one more than the current number of existing purchases
-          - [N/A(week2)] `name` - the name of the user making the purchase
-          - [N/A(week2)] `email` - the email of the user making the purchase
-          - [N/A(week2)] `order` - the `shoppingCart` value sent in the `POST` request
-          - [N/A(week2)] `total` - the calculated total of the order
-          - [N/A(week2)] `createdAt` - a string representation of the date and time when the order was placed
+          - [X] `id` - the new `id` of the purchase should be equal to one more than the current number of existing purchases
+          - [X] `name` - the name of the user making the purchase
+          - [X] `email` - the email of the user making the purchase
+          - [X] `order` - the `shoppingCart` value sent in the `POST` request
+          - [X] `total` - the calculated total of the order
+          - [X] `createdAt` - a string representation of the date and time when the order was placed
         - **optional**:
-          - [N/A(week2)] `receipt` - text describing the order (what might go on a receipt)
-      - [N/A(week2)] It should then send a JSON response back to the client with the new purchase like so: `{ "purchase": purchase }`. The response should have a `201` status code for a resource created action.
+          - [X] `receipt` - text describing the order (what might go on a receipt)
+      - [X] It should then send a JSON response back to the client with the new purchase like so: `{ "purchase": purchase }`. The response should have a `201` status code for a resource created action.
 
 ---
 
